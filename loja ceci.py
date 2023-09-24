@@ -1,0 +1,6 @@
+valorp = float(input('digite o valor de custo do produto R$:' ))
+taxaloja = int(input('digite a taxa do ecomerce: % ' ))
+lucro = int(input('digite o valor do lucro que voçe quer: ' ))
+preço = valorp + (valorp * taxaloja / 100)
+final = preço + (preço * lucro/100)
+print('com o custo inicial de {} \no valor final para venda deve ser R$: {:.2f} '.format(valorp,final))
